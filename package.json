@@ -1,0 +1,16 @@
+{
+  "name": "tiktok-live-fly",
+  "version": "1.0.0",
+  "description": "Realtime TikTok Live -> Socket.IO server",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "tiktok-live-connector": "^2.1.0",
+    "ws": "^8.18.2"
+  }
+}
